@@ -1,0 +1,278 @@
+📚 Subject: Computer Organization & Architecture (COA)
+🧠 Topic: ALU, Datapath & Control Unit
+
+1️⃣ Concept Teaching (Strict, Clear, GATE-Oriented)
+🔹 Arithmetic Logic Unit (ALU)
+
+The ALU is responsible for:
+
+👉 Arithmetic operations:
+
+Addition
+Subtraction
+Multiplication
+
+👉 Logical operations:
+
+AND, OR, NOT, XOR
+🔹 ALU Inputs & Outputs
+
+Inputs:
+
+Operands (from registers)
+Control signals
+
+Output:
+
+Result
+Status flags
+🔹 Status Flags (VERY IMPORTANT)
+
+After ALU operation, flags are set:
+
+Zero (Z) → Result = 0
+Carry (C) → Carry generated
+Sign (S) → Negative result
+Overflow (V) → Overflow occurred
+
+📌 Very common GATE questions.
+
+🔹 Datapath
+
+The datapath is the hardware path through which data flows.
+
+Includes:
+
+Registers
+ALU
+Multiplexers
+Buses
+🔹 Datapath Operation
+
+1️⃣ Data fetched from registers
+2️⃣ Sent to ALU
+3️⃣ Operation performed
+4️⃣ Result stored back
+
+🔹 Control Unit (CU)
+
+The Control Unit controls:
+
+👉 Which operation to perform
+👉 When to perform
+👉 Data movement
+
+🔹 Types of Control Unit
+1️⃣ Hardwired Control
+Uses fixed logic circuits
+Faster
+Difficult to modify
+2️⃣ Microprogrammed Control
+Uses control memory
+Flexible
+Slower
+
+📌 GATE often asks comparison.
+
+🔹 Control Signals
+
+Examples:
+
+Read / Write
+ALU operation select
+Register select
+🔹 Datapath + Control = CPU
+
+👉 Datapath → does work
+👉 Control → directs work
+
+🔹 Instruction Execution (Combined View)
+Control unit fetches instruction
+Decodes it
+Sends signals
+Datapath executes
+ALU produces result
+🔹 Common GATE Traps
+Confusing ALU and CU roles
+Forgetting flags meaning
+Mixing hardwired vs microprogrammed
+2️⃣ Practice: 30 GATE-Level MCQs
+Q1.
+
+ALU performs:
+Answer: Arithmetic & logic operations
+Explanation: Core computation.
+
+Q2.
+
+ALU receives inputs from:
+Answer: Registers
+Explanation: Operands stored there.
+
+Q3.
+
+Zero flag set when:
+Answer: Result = 0
+Explanation: Condition.
+
+Q4.
+
+Carry flag indicates:
+Answer: Carry/borrow
+Explanation: Arithmetic overflow bit.
+
+Q5.
+
+Sign flag indicates:
+Answer: Negative result
+Explanation: MSB.
+
+Q6.
+
+Overflow flag indicates:
+Answer: Arithmetic overflow
+Explanation: Exceed range.
+
+Q7.
+
+Datapath includes:
+Answer: ALU, registers, buses
+Explanation: Data flow components.
+
+Q8.
+
+Control unit does:
+Answer: Direct operations
+Explanation: Sends signals.
+
+Q9.
+
+Hardwired control is:
+Answer: Faster
+Explanation: Fixed logic.
+
+Q10.
+
+Microprogrammed control is:
+Answer: Flexible
+Explanation: Uses memory.
+
+Q11.
+
+Datapath handles:
+Answer: Data processing
+Explanation: Execution.
+
+Q12.
+
+Control unit handles:
+Answer: Control signals
+Explanation: Coordination.
+
+Q13.
+
+CPU consists of:
+Answer: ALU + CU + registers
+Explanation: Main components.
+
+Q14.
+
+ALU output includes:
+Answer: Result + flags
+Explanation: Status info.
+
+Q15.
+
+Most PYQ-tested concept?
+Answer: Flags
+Explanation: Frequent.
+
+Q16.
+
+Biggest GATE trap?
+Answer: Confusing ALU vs CU
+Explanation: Roles differ.
+
+Q17.
+
+Datapath transfers data via:
+Answer: Buses
+Explanation: Communication.
+
+Q18.
+
+Control signals decide:
+Answer: Operation flow
+Explanation: Execution control.
+
+Q19.
+
+Microprogrammed control uses:
+Answer: Control memory
+Explanation: Stored instructions.
+
+Q20.
+
+Hardwired control uses:
+Answer: Logic circuits
+Explanation: Fixed design.
+
+Q21.
+
+Instruction execution controlled by:
+Answer: Control unit
+Explanation: Central control.
+
+Q22.
+
+ALU operation selection done by:
+Answer: Control signals
+Explanation: Input control.
+
+Q23.
+
+Registers are part of:
+Answer: Datapath
+Explanation: Data storage.
+
+Q24.
+
+Overflow occurs when:
+Answer: Result exceeds range
+Explanation: Limits exceeded.
+
+Q25.
+
+Carry flag used in:
+Answer: Addition/subtraction
+Explanation: Arithmetic.
+
+Q26.
+
+Sign flag based on:
+Answer: MSB
+Explanation: Sign bit.
+
+Q27.
+
+Datapath works under:
+Answer: Control unit
+Explanation: Directed execution.
+
+Q28.
+
+ALU is part of:
+Answer: CPU
+Explanation: Core unit.
+
+Q29.
+
+Control unit synchronizes using:
+Answer: Clock
+Explanation: Timing.
+
+Q30.
+
+ALU & CU together form:
+Answer: CPU
+Explanation: Processing system.
